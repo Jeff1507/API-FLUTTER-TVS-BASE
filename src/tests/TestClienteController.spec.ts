@@ -2,7 +2,6 @@ const request = require('supertest');
 import * as server from '../server';
 const app = server.server;
 import { Request, Response } from 'express';
-import { ItemDoPedido } from '../models/ItemDoPedido';
 
 describe('Teste da rota getClienteById', () => {
     it('deve retornar o cliente correto quando o ID é valido', async () => {
