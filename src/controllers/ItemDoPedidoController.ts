@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { Produto } from '../models/Produto';
 import { Pedido } from '../models/Pedido';
-import { ItemDoPedido, ItemDoPedido } from '../models/ItemDoPedido';
+import { ItemDoPedido} from '../models/ItemDoPedido';
 
 export const getItemDoPedidoById = async (req: Request, res: Response) => {
     try {
